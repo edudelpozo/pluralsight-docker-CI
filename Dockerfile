@@ -17,7 +17,7 @@ RUN npm config set strict-ssl false
 RUN cd /src; npm install
 
 # WORKDIR /src
-#RUN npm config set strict-ssl false
+# RUN npm config set strict-ssl false
 # RUN npm install
 
 EXPOSE 8080
